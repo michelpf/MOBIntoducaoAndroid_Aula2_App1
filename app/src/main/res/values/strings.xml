@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MOBIntoducaoAndroid_Aula2_App1</string>
+
+    <string name="contador">Aplicação de Contador</string>
+    <string name="action_settings">Configurações</string>
+    <string name="btnMais">+</string>
+    <string name="btnMenos">-</string>
+    <string name="txtZero">0</string>
+</resources>
