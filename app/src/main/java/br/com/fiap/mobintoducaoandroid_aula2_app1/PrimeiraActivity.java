@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PrimeiraActivity extends AppCompatActivity {
 
@@ -55,9 +56,14 @@ public class PrimeiraActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Toast.makeText(this,"Menu de Configurações Acionado!",Toast.LENGTH_LONG).show();
         }
-
+        if (id == R.id.action_menuOp1){
+            Toast.makeText(this,"Menu de Configurações 1 Acionado!",Toast.LENGTH_LONG).show();
+        }
+        if (id == R.id.action_menuOp2){
+            Toast.makeText(this,"Menu de Configurações 2 Acionado!",Toast.LENGTH_LONG).show();
+        }
         return super.onOptionsItemSelected(item);
     }
 }
